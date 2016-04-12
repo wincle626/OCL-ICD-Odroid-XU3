@@ -1,0 +1,10 @@
+prefix=/root/enpower/pocl/ocl-icd/ocl-icd-2.2.9/install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenCL
+Description: Open Computing Language generic Installable Client Driver Loader
+Version: 2.1
+Libs: -L${libdir} -lOpenCL
+Cflags: -I${includedir}
